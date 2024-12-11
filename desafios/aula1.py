@@ -1,4 +1,7 @@
 '''
+
+                #EXERCÍCIOS DE PYTHON
+
 #VARIÁVEIS
 nome = 'Marco'
 idade = 24
