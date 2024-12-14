@@ -60,7 +60,7 @@ elif primeiro_valor < segundo_valor:
     print('O segundo número é maior')
 else:
     print('Os números são iguais')
-'''
+
 
 #Exemplo 5
 hora_do_dia = 'Manhã'
@@ -71,3 +71,30 @@ elif hora_do_dia == 'Tarde':
     print('Boa tarde!')
 elif hora_do_dia == 'Noite':
     print('Boa noite!')
+'''
+'''
+#LAÇOS DE REPETIÇÃO + LISTAS
+
+for item in range(1,21):  # 1 à 20
+    print(item)
+
+for item in range(1,21,2): # 1 à 20 (2 em 2)
+    print(item)
+
+'''
+nomes = ['Marco', 'Ana', 'Marcela', 'Maria', 'Julia']
+for nome in nomes:
+    print(nome)
+
+lista_produtos = ['notbook', 'ipad', 'celular']
+for produto in lista_produtos:
+    print(produto)
+
+'''
+#Exercicio
+valor_maximo = int(input('Digite o valor máximo'))
+valor_inicial = 1
+
+for numero in range(valor_inicial, valor_maximo + 1):
+    print(numero)
+'''
